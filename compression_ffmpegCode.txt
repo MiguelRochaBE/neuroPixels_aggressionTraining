@@ -1,0 +1,1 @@
+ffmpeg -i "D:\trainingAggression_MR\20250817_mouse975826\Day01\behavioralData\Arena (Mouse View)\17-27-55.avi" -c:v libx264 -preset slow -crf 22 -y "D:\trainingAggression_MR\20250817_mouse975826\Day01\behavioralData\Arena (Mouse View)\975826_D1_mouseView.avi"
