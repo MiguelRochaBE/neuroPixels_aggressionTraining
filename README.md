@@ -1,1 +1,1 @@
-# Neurpixels_aggressionTraining
+# neuroPixels_aggressionTraining
