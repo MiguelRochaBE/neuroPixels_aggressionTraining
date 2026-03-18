@@ -128,15 +128,17 @@ Good_ID = find(ismember(cellstr(Label),'good')); %Identify good clusters
 if isempty(Good_ID)
     Good_ID = find(ismember(Label,'g')); %Identify good clusters
 end
-try
-
+if isfield(clusinfo,'Noise_ID') && ~isempty(clusinfo.Noise_ID)
     Noise_ID = find(clusinfo.Noise_ID);
-catch
-    Noise_ID = find(~ismember(Label,'g'));
+else
+    lab = lower(string(Label));
+    Noise_ID = find(lab == "noise");   % <-- FIX: works with 'good'/'mua'/'noise'/'unsorted'
 end
 %% Select only good units to clean up MUA
 if nargin>4 && removenoise
-    spikeID = ~ismember(spikeCluster,Noise_ID-1); %0-indexed
+    % Noise_ID are indices into clusinfo arrays -> convert to actual cluster IDs
+    noiseClusterIDs = cluster_id(Noise_ID);  % <- cluster_id already extracted above
+    spikeID = ~ismember(spikeCluster, noiseClusterIDs);
 else
     spikeID = true(length(spikeCluster),1);
     try
@@ -223,6 +225,13 @@ end
 gui_fig = figure('color','w');
 flag = 0; %to keep track of finishing this loop
 depthunique = unique(spikeDepths(spikeID));
+
+% ---- DEBUG ----
+fprintf('DEBUG: sum(spikeID)= %d (of %d spikes)\n', sum(spikeID), numel(spikeID));
+tmpd = spikeDepths(spikeID);
+fprintf('DEBUG: depths after filter: n=%d, nNaN=%d\n', numel(tmpd), sum(isnan(tmpd)));
+fprintf('DEBUG: min/max spikeCluster in kept spikes: [%g %g]\n', ...
+    min(spikeCluster(spikeID)), max(spikeCluster(spikeID)));
 
 %
 % %Find 'gaps' of low activity:
@@ -400,6 +409,7 @@ while ~flag
     
     oripatchobj = gobjects;
     oritextobj = gobjects;
+    
     for shid=1:nshanks
         for i=2:length(switchpoints{shid})
             oripatchobj(shid,i-1) = patch([shid-1 shid shid shid-1],[areapoints{shid}(switchpoints{shid}(i-1)) areapoints{shid}(switchpoints{shid}(i-1)) areapoints{shid}(switchpoints{shid}(i)) areapoints{shid}(switchpoints{shid}(i))],hex2rgb(color_hex(ismember(acronyms,UniqueAreas{shid}{IC{shid}(switchpoints{shid}(i-1))}))));
