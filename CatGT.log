@@ -10836,3 +10836,109 @@
 [Thd 21956 CPU 4 3/01/26 18:51:24.368] Cmdline: CatGT -dir=J:/project_trainingAggression/Data/Maladaptive/Psilocybin/20260126_mouse1034814/Day19/neuralData -run=20260126_m1034814_obs6 -g=0 -t=0 -prb_fld -ni -ap -prb=0:2 -maxsecs=1205 -xid=0,0,3,2,50,5 -xd=0,0,3,3,0 -xid=0,0,3,3,360000,5000 -xd=0,0,3,4,1e+06,500000 -xd=0,0,3,5,3500,500 -xid=0,0,3,5,11000,3000 -pass1_force_ni_ob_bin -dest=J:/project_trainingAggression/Data/Maladaptive/Psilocybin/20260126_mouse1034814/Day19/neuralData -out_prb_fld
 [Thd 21956 CPU 4 3/01/26 18:51:24.418] Meta file not found 'J:/project_trainingAggression/Data/Maladaptive/Psilocybin/20260126_mouse1034814/Day19/neuralData/20260126_m1034814_obs6_g0/20260126_m1034814_obs6_g0_imec0/20260126_m1034814_obs6_g0_t0.imec0.ap.meta'.
 [Thd 21956 CPU 4 3/01/26 18:51:24.418] 
+[Thd 13304 CPU 5 4/02/26 23:45:23.145] Cmdline: CatGT -dir=J:/project_trainingAggression/Data/LightControls/20260324_mouse1010835/Day01/neuralData -run=20260324_m1010835_obs1 -g=0 -t=0 -prb_fld -ni -ap -prb=0:2 -maxsecs=1205 -xid=0,0,3,2,50,5 -xd=0,0,3,3,0 -xid=0,0,3,3,360000,5000 -xd=0,0,3,4,1e+06,500000 -xd=0,0,3,5,3500,500 -xid=0,0,3,5,11000,3000 -pass1_force_ni_ob_bin -dest=J:/project_trainingAggression/Data/LightControls/20260324_mouse1010835/Day01/neuralData -out_prb_fld
+[Thd 13304 CPU 2 4/02/26 23:45:23.200] Note: Metadata <imErrFlags0_IS_CT_SR_LK_PP_SY_MS=1 4 0 0 0 4 47> in '20260324_m1010835_obs1_g0_t0.nidq.meta'.
+[Thd 13304 CPU 2 4/02/26 23:45:23.200] Word <3> >= nchans <3> in extractor ' -xid=0,0,3,2,50,5'.
+[Thd 13304 CPU 2 4/02/26 23:45:23.201] Word <3> >= nchans <3> in extractor ' -xd=0,0,3,3,0'.
+[Thd 13304 CPU 3 4/02/26 23:45:23.201] Word <3> >= nchans <3> in extractor ' -xid=0,0,3,3,360000,5000'.
+[Thd 13304 CPU 3 4/02/26 23:45:23.201] Word <3> >= nchans <3> in extractor ' -xd=0,0,3,4,1e+06,500000'.
+[Thd 13304 CPU 3 4/02/26 23:45:23.201] Word <3> >= nchans <3> in extractor ' -xd=0,0,3,5,3500,500'.
+[Thd 13304 CPU 2 4/02/26 23:45:23.201] Word <3> >= nchans <3> in extractor ' -xid=0,0,3,5,11000,3000'.
+[Thd 13304 CPU 8 4/02/26 23:45:23.591] Note: Metadata <imErrFlags0_IS_CT_SR_LK_PP_SY_MS=1 4 0 0 0 4 47> in '20260324_m1010835_obs1_g0_t0.imec0.ap.meta'.
+[Thd 13304 CPU 8 4/02/26 23:55:56.596] Note: Metadata <imErrFlags0_IS_CT_SR_LK_PP_SY_MS=1 4 0 0 0 4 47> in '20260324_m1010835_obs1_g0_t0.imec1.ap.meta'.
+[Thd 13304 CPU 6 4/03/26 00:06:16.480] Note: Metadata <imErrFlags0_IS_CT_SR_LK_PP_SY_MS=1 4 0 0 0 4 47> in '20260324_m1010835_obs1_g0_t0.imec2.ap.meta'.
+[Thd 13304 CPU 2 4/03/26 00:16:22.932] 
+[Thd 21808 CPU 6 4/03/26 00:16:33.486] Cmdline: CatGT -dir=J:/project_trainingAggression/Data/LightControls/20260324_mouse1010835/Day03/neuralData -run=20260324_m1010835_obs2 -g=0 -t=0 -prb_fld -ni -ap -prb=0:2 -maxsecs=1205 -xid=0,0,3,2,50,5 -xd=0,0,3,3,0 -xid=0,0,3,3,360000,5000 -xd=0,0,3,4,1e+06,500000 -xd=0,0,3,5,3500,500 -xid=0,0,3,5,11000,3000 -pass1_force_ni_ob_bin -dest=J:/project_trainingAggression/Data/LightControls/20260324_mouse1010835/Day03/neuralData -out_prb_fld
+[Thd 21808 CPU 2 4/03/26 00:16:33.556] Word <3> >= nchans <3> in extractor ' -xid=0,0,3,2,50,5'.
+[Thd 21808 CPU 2 4/03/26 00:16:33.556] Word <3> >= nchans <3> in extractor ' -xd=0,0,3,3,0'.
+[Thd 21808 CPU 6 4/03/26 00:16:33.557] Word <3> >= nchans <3> in extractor ' -xid=0,0,3,3,360000,5000'.
+[Thd 21808 CPU 6 4/03/26 00:16:33.557] Word <3> >= nchans <3> in extractor ' -xd=0,0,3,4,1e+06,500000'.
+[Thd 21808 CPU 6 4/03/26 00:16:33.557] Word <3> >= nchans <3> in extractor ' -xd=0,0,3,5,3500,500'.
+[Thd 21808 CPU 6 4/03/26 00:16:33.557] Word <3> >= nchans <3> in extractor ' -xid=0,0,3,5,11000,3000'.
+[Thd 21808 CPU 2 4/03/26 00:46:26.893] 
+[Thd 17924 CPU 4 4/03/26 00:46:36.532] Cmdline: CatGT -dir=J:/project_trainingAggression/Data/LightControls/20260324_mouse1034807/Day01/neuralData -run=20260324_m1034807_obs1 -g=0 -t=0 -prb_fld -ni -ap -prb=0:2 -maxsecs=1205 -xid=0,0,3,2,50,5 -xd=0,0,3,3,0 -xid=0,0,3,3,360000,5000 -xd=0,0,3,4,1e+06,500000 -xd=0,0,3,5,3500,500 -xid=0,0,3,5,11000,3000 -pass1_force_ni_ob_bin -dest=J:/project_trainingAggression/Data/LightControls/20260324_mouse1034807/Day01/neuralData -out_prb_fld
+[Thd 17924 CPU 3 4/03/26 00:46:36.750] Word <3> >= nchans <3> in extractor ' -xid=0,0,3,2,50,5'.
+[Thd 17924 CPU 3 4/03/26 00:46:36.750] Word <3> >= nchans <3> in extractor ' -xd=0,0,3,3,0'.
+[Thd 17924 CPU 3 4/03/26 00:46:36.750] Word <3> >= nchans <3> in extractor ' -xid=0,0,3,3,360000,5000'.
+[Thd 17924 CPU 8 4/03/26 00:46:36.751] Word <3> >= nchans <3> in extractor ' -xd=0,0,3,4,1e+06,500000'.
+[Thd 17924 CPU 8 4/03/26 00:46:36.751] Word <3> >= nchans <3> in extractor ' -xd=0,0,3,5,3500,500'.
+[Thd 17924 CPU 8 4/03/26 00:46:36.751] Word <3> >= nchans <3> in extractor ' -xid=0,0,3,5,11000,3000'.
+[Thd 17924 CPU 2 4/03/26 01:16:23.679] 
+[Thd 13980 CPU 8 4/03/26 01:16:33.489] Cmdline: CatGT -dir=J:/project_trainingAggression/Data/LightControls/20260324_mouse1034807/Day03/neuralData -run=20260324_m1034807_obs2 -g=0 -t=0 -prb_fld -ni -ap -prb=0:2 -maxsecs=1205 -xid=0,0,3,2,50,5 -xd=0,0,3,3,0 -xid=0,0,3,3,360000,5000 -xd=0,0,3,4,1e+06,500000 -xd=0,0,3,5,3500,500 -xid=0,0,3,5,11000,3000 -pass1_force_ni_ob_bin -dest=J:/project_trainingAggression/Data/LightControls/20260324_mouse1034807/Day03/neuralData -out_prb_fld
+[Thd 13980 CPU 2 4/03/26 01:16:33.612] Word <3> >= nchans <3> in extractor ' -xid=0,0,3,2,50,5'.
+[Thd 13980 CPU 2 4/03/26 01:16:33.612] Word <3> >= nchans <3> in extractor ' -xd=0,0,3,3,0'.
+[Thd 13980 CPU 2 4/03/26 01:16:33.613] Word <3> >= nchans <3> in extractor ' -xid=0,0,3,3,360000,5000'.
+[Thd 13980 CPU 2 4/03/26 01:16:33.613] Word <3> >= nchans <3> in extractor ' -xd=0,0,3,4,1e+06,500000'.
+[Thd 13980 CPU 6 4/03/26 01:16:33.613] Word <3> >= nchans <3> in extractor ' -xd=0,0,3,5,3500,500'.
+[Thd 13980 CPU 6 4/03/26 01:16:33.613] Word <3> >= nchans <3> in extractor ' -xid=0,0,3,5,11000,3000'.
+[Thd 13980 CPU 2 4/03/26 01:47:45.269] 
+[Thd 20044 CPU 2 4/03/26 01:47:54.767] Cmdline: CatGT -dir=J:/project_trainingAggression/Data/LightControls/20260324_mouse1034810/Day01/neuralData -run=20260324_m1034810_obs1 -g=0 -t=0 -prb_fld -ni -ap -prb=0:2 -maxsecs=1205 -xid=0,0,3,2,50,5 -xd=0,0,3,3,0 -xid=0,0,3,3,360000,5000 -xd=0,0,3,4,1e+06,500000 -xd=0,0,3,5,3500,500 -xid=0,0,3,5,11000,3000 -pass1_force_ni_ob_bin -dest=J:/project_trainingAggression/Data/LightControls/20260324_mouse1034810/Day01/neuralData -out_prb_fld
+[Thd 20044 CPU 4 4/03/26 01:47:54.942] Word <3> >= nchans <3> in extractor ' -xid=0,0,3,2,50,5'.
+[Thd 20044 CPU 4 4/03/26 01:47:54.942] Word <3> >= nchans <3> in extractor ' -xd=0,0,3,3,0'.
+[Thd 20044 CPU 4 4/03/26 01:47:54.942] Word <3> >= nchans <3> in extractor ' -xid=0,0,3,3,360000,5000'.
+[Thd 20044 CPU 4 4/03/26 01:47:54.944] Word <3> >= nchans <3> in extractor ' -xd=0,0,3,4,1e+06,500000'.
+[Thd 20044 CPU 4 4/03/26 01:47:54.944] Word <3> >= nchans <3> in extractor ' -xd=0,0,3,5,3500,500'.
+[Thd 20044 CPU 4 4/03/26 01:47:54.944] Word <3> >= nchans <3> in extractor ' -xid=0,0,3,5,11000,3000'.
+[Thd 20044 CPU 2 4/03/26 02:17:16.691] 
+[Thd 9808 CPU 4 4/03/26 02:17:26.589] Cmdline: CatGT -dir=J:/project_trainingAggression/Data/LightControls/20260324_mouse1034810/Day03/neuralData -run=20260324_m1034810_obs2 -g=0 -t=0 -prb_fld -ni -ap -prb=0:2 -maxsecs=1205 -xid=0,0,3,2,50,5 -xd=0,0,3,3,0 -xid=0,0,3,3,360000,5000 -xd=0,0,3,4,1e+06,500000 -xd=0,0,3,5,3500,500 -xid=0,0,3,5,11000,3000 -pass1_force_ni_ob_bin -dest=J:/project_trainingAggression/Data/LightControls/20260324_mouse1034810/Day03/neuralData -out_prb_fld
+[Thd 9808 CPU 2 4/03/26 02:17:26.823] Word <3> >= nchans <3> in extractor ' -xid=0,0,3,2,50,5'.
+[Thd 9808 CPU 2 4/03/26 02:17:26.824] Word <3> >= nchans <3> in extractor ' -xd=0,0,3,3,0'.
+[Thd 9808 CPU 14 4/03/26 02:17:26.824] Word <3> >= nchans <3> in extractor ' -xid=0,0,3,3,360000,5000'.
+[Thd 9808 CPU 14 4/03/26 02:17:26.825] Word <3> >= nchans <3> in extractor ' -xd=0,0,3,4,1e+06,500000'.
+[Thd 9808 CPU 14 4/03/26 02:17:26.825] Word <3> >= nchans <3> in extractor ' -xd=0,0,3,5,3500,500'.
+[Thd 9808 CPU 14 4/03/26 02:17:26.826] Word <3> >= nchans <3> in extractor ' -xid=0,0,3,5,11000,3000'.
+[Thd 9808 CPU 12 4/03/26 02:47:14.441] 
+[Thd 22568 CPU 2 4/03/26 17:48:07.005] Cmdline: CatGT -dir=J:/project_trainingAggression/Data/lll/20260324_mouse1010835/Day01/neuralData -run=20260324_m1010835_obs1 -g=0 -t=0 -prb_fld -ni -ap -prb=0:2 -maxsecs=1205 -xid=0,0,-1,2,50,5 -xd=0,0,-1,3,0 -xid=0,0,-1,3,360000,5000 -xd=0,0,-1,4,1e+06,500000 -xd=0,0,-1,5,3500,500 -xid=0,0,-1,5,11000,3000 -pass1_force_ni_ob_bin -dest=J:/project_trainingAggression/Data/lll/20260324_mouse1010835/Day01/neuralData -out_prb_fld
+[Thd 22568 CPU 0 4/03/26 17:48:07.117] Note: Metadata <imErrFlags0_IS_CT_SR_LK_PP_SY_MS=1 4 0 0 0 4 47> in '20260324_m1010835_obs1_g0_t0.nidq.meta'.
+[Thd 22568 CPU 0 4/03/26 17:48:07.801] Note: Metadata <imErrFlags0_IS_CT_SR_LK_PP_SY_MS=1 4 0 0 0 4 47> in '20260324_m1010835_obs1_g0_t0.imec0.ap.meta'.
+[Thd 22568 CPU 4 4/03/26 18:05:01.068] Note: Metadata <imErrFlags0_IS_CT_SR_LK_PP_SY_MS=1 4 0 0 0 4 47> in '20260324_m1010835_obs1_g0_t0.imec1.ap.meta'.
+[Thd 22568 CPU 2 4/03/26 18:20:13.146] Note: Metadata <imErrFlags0_IS_CT_SR_LK_PP_SY_MS=1 4 0 0 0 4 47> in '20260324_m1010835_obs1_g0_t0.imec2.ap.meta'.
+[Thd 22568 CPU 0 4/03/26 18:37:38.568] 
+[Thd 12488 CPU 0 4/03/26 18:37:46.263] Cmdline: CatGT -dir=J:/project_trainingAggression/Data/lll/20260324_mouse1010835/Day03/neuralData -run=20260324_m1010835_obs2 -g=0 -t=0 -prb_fld -ni -ap -prb=0:2 -maxsecs=1205 -xid=0,0,-1,2,50,5 -xd=0,0,-1,3,0 -xid=0,0,-1,3,360000,5000 -xd=0,0,-1,4,1e+06,500000 -xd=0,0,-1,5,3500,500 -xid=0,0,-1,5,11000,3000 -pass1_force_ni_ob_bin -dest=J:/project_trainingAggression/Data/lll/20260324_mouse1010835/Day03/neuralData -out_prb_fld
+[Thd 12488 CPU 2 4/03/26 19:28:25.428] 
+[Thd 18584 CPU 2 4/03/26 19:28:31.835] Cmdline: CatGT -dir=J:/project_trainingAggression/Data/lll/20260324_mouse1034807/Day01/neuralData -run=20260324_m1034807_obs1 -g=0 -t=0 -prb_fld -ni -ap -prb=0:2 -maxsecs=1205 -xid=0,0,-1,2,50,5 -xd=0,0,-1,3,0 -xid=0,0,-1,3,360000,5000 -xd=0,0,-1,4,1e+06,500000 -xd=0,0,-1,5,3500,500 -xid=0,0,-1,5,11000,3000 -pass1_force_ni_ob_bin -dest=J:/project_trainingAggression/Data/lll/20260324_mouse1034807/Day01/neuralData -out_prb_fld
+[Thd 18584 CPU 10 4/03/26 20:58:23.860] 
+[Thd 23856 CPU 8 4/03/26 20:58:31.487] Cmdline: CatGT -dir=J:/project_trainingAggression/Data/lll/20260324_mouse1034807/Day03/neuralData -run=20260324_m1034807_obs2 -g=0 -t=0 -prb_fld -ni -ap -prb=0:2 -maxsecs=1205 -xid=0,0,-1,2,50,5 -xd=0,0,-1,3,0 -xid=0,0,-1,3,360000,5000 -xd=0,0,-1,4,1e+06,500000 -xd=0,0,-1,5,3500,500 -xid=0,0,-1,5,11000,3000 -pass1_force_ni_ob_bin -dest=J:/project_trainingAggression/Data/lll/20260324_mouse1034807/Day03/neuralData -out_prb_fld
+[Thd 23856 CPU 2 4/03/26 22:21:51.275] 
+[Thd 17264 CPU 2 4/03/26 22:21:59.415] Cmdline: CatGT -dir=J:/project_trainingAggression/Data/lll/20260324_mouse1034810/Day01/neuralData -run=20260324_m1034810_obs1 -g=0 -t=0 -prb_fld -ni -ap -prb=0:2 -maxsecs=1205 -xid=0,0,-1,2,50,5 -xd=0,0,-1,3,0 -xid=0,0,-1,3,360000,5000 -xd=0,0,-1,4,1e+06,500000 -xd=0,0,-1,5,3500,500 -xid=0,0,-1,5,11000,3000 -pass1_force_ni_ob_bin -dest=J:/project_trainingAggression/Data/lll/20260324_mouse1034810/Day01/neuralData -out_prb_fld
+[Thd 17264 CPU 2 4/03/26 23:34:19.514] 
+[Thd 14860 CPU 2 4/03/26 23:34:26.273] Cmdline: CatGT -dir=J:/project_trainingAggression/Data/lll/20260324_mouse1034810/Day03/neuralData -run=20260324_m1034810_obs2 -g=0 -t=0 -prb_fld -ni -ap -prb=0:2 -maxsecs=1205 -xid=0,0,-1,2,50,5 -xd=0,0,-1,3,0 -xid=0,0,-1,3,360000,5000 -xd=0,0,-1,4,1e+06,500000 -xd=0,0,-1,5,3500,500 -xid=0,0,-1,5,11000,3000 -pass1_force_ni_ob_bin -dest=J:/project_trainingAggression/Data/lll/20260324_mouse1034810/Day03/neuralData -out_prb_fld
+[Thd 14860 CPU 2 4/04/26 01:00:47.844] 
+[Thd 476 CPU 2 4/07/26 21:30:33.883] Cmdline: CatGT -dir=J:/project_trainingAggression/Data/ParadigmControls/20260324_mouse1034810/Day08/neuralData -run=20260324_m1034810_obs3 -g=0 -t=0 -prb_fld -ni -ap -prb=0:2 -maxsecs=1205 -xid=0,0,-1,2,50,5 -xd=0,0,-1,3,0 -xid=0,0,-1,3,360000,5000 -xd=0,0,-1,4,1e+06,500000 -xd=0,0,-1,5,3500,500 -xid=0,0,-1,5,11000,3000 -pass1_force_ni_ob_bin -dest=J:/project_trainingAggression/Data/ParadigmControls/20260324_mouse1034810/Day08/neuralData -out_prb_fld
+[Thd 476 CPU 2 4/07/26 21:59:58.524] 
+[Thd 24968 CPU 4 4/08/26 21:09:38.183] Cmdline: CatGT -dir=J:/project_trainingAggression/Data/ParadigmControls/20260324_mouse1034807/Day08/neuralData -run=20260324_m1034807_obs3 -g=0 -t=0 -prb_fld -ni -ap -prb=0:2 -maxsecs=1205 -xid=0,0,-1,2,50,5 -xd=0,0,-1,3,0 -xid=0,0,-1,3,360000,5000 -xd=0,0,-1,4,1e+06,500000 -xd=0,0,-1,5,3500,500 -xid=0,0,-1,5,11000,3000 -pass1_force_ni_ob_bin -dest=J:/project_trainingAggression/Data/ParadigmControls/20260324_mouse1034807/Day08/neuralData -out_prb_fld
+[Thd 24968 CPU 2 4/08/26 21:39:12.972] 
+[Thd 8688 CPU 2 4/09/26 20:51:22.478] Cmdline: CatGT -dir=J:/project_trainingAggression/Data/ParadigmControls/20260324_mouse1010835/Day08/neuralData -run=20260324_m1010835_obs3 -g=0 -t=0 -prb_fld -ni -ap -prb=0:2 -maxsecs=1205 -xid=0,0,-1,2,50,5 -xd=0,0,-1,3,0 -xid=0,0,-1,3,360000,5000 -xd=0,0,-1,4,1e+06,500000 -xd=0,0,-1,5,3500,500 -xid=0,0,-1,5,11000,3000 -pass1_force_ni_ob_bin -dest=J:/project_trainingAggression/Data/ParadigmControls/20260324_mouse1010835/Day08/neuralData -out_prb_fld
+[Thd 8688 CPU 2 4/09/26 21:20:51.901] 
+[Thd 27884 CPU 2 4/20/26 20:57:08.429] Cmdline: CatGT -dir=J:/project_trainingAggression/Data/20260105_mouse1029736/Day03/neuralData -run=20260105_m1029736_obs2 -g=0 -t=0 -prb_fld -ni -ap -prb=0:2 -maxsecs=1205 -xid=0,0,-1,2,50,5 -xd=0,0,-1,3,0 -xid=0,0,-1,3,360000,5000 -xd=0,0,-1,4,1e+06,500000 -xd=0,0,-1,5,3500,500 -xid=0,0,-1,5,11000,3000 -pass1_force_ni_ob_bin -dest=J:/project_trainingAggression/Data/20260105_mouse1029736/Day03/neuralData -out_prb_fld
+[Thd 27884 CPU 2 4/20/26 21:26:33.553] 
+[Thd 13084 CPU 6 4/20/26 21:26:44.644] Cmdline: CatGT -dir=J:/project_trainingAggression/Data/Maladaptive/Psilocybin/20260126_mouse1034814/Day19/neuralData -run=20260126_m1034814_obs6 -g=0 -t=0 -prb_fld -ni -ap -prb=0:2 -maxsecs=1205 -xid=0,0,-1,2,50,5 -xd=0,0,-1,3,0 -xid=0,0,-1,3,360000,5000 -xd=0,0,-1,4,1e+06,500000 -xd=0,0,-1,5,3500,500 -xid=0,0,-1,5,11000,3000 -pass1_force_ni_ob_bin -dest=J:/project_trainingAggression/Data/Maladaptive/Psilocybin/20260126_mouse1034814/Day19/neuralData -out_prb_fld
+[Thd 13084 CPU 2 4/20/26 21:26:44.719] Meta file not found 'J:/project_trainingAggression/Data/Maladaptive/Psilocybin/20260126_mouse1034814/Day19/neuralData/20260126_m1034814_obs6_g0/20260126_m1034814_obs6_g0_imec0/20260126_m1034814_obs6_g0_t0.imec0.ap.meta'.
+[Thd 13084 CPU 2 4/20/26 21:26:44.719] 
+[Thd 24996 CPU 2 4/21/26 12:28:42.243] Cmdline: CatGT -dir=J:/project_trainingAggression/Data/20260105_mouse1029736/Day03/neuralData -run=20260105_m1029736_obs2 -g=0 -t=0 -prb_fld -ni -ap -prb=0:2 -maxsecs=1205 -xid=0,0,-1,2,50,5 -xd=0,0,-1,3,0 -xid=0,0,-1,3,360000,5000 -xd=0,0,-1,4,1e+06,500000 -xd=0,0,-1,5,3500,500 -xid=0,0,-1,5,11000,3000 -pass1_force_ni_ob_bin -dest=J:/project_trainingAggression/Data/20260105_mouse1029736/Day03/neuralData -out_prb_fld
+[Thd 24996 CPU 2 4/21/26 12:28:42.246] Meta file not found 'J:/project_trainingAggression/Data/20260105_mouse1029736/Day03/neuralData/20260105_m1029736_obs2_g0/20260105_m1029736_obs2_g0_t0.nidq.meta'.
+[Thd 24996 CPU 2 4/21/26 12:28:42.246] 
+[Thd 9416 CPU 15 4/21/26 12:29:04.402] Cmdline: CatGT -dir=J:/project_trainingAggression/Data/Maladaptive/Psilocybin/20260126_mouse1034814/Day19/neuralData/neuralData -run=20260126_m1034814_obs6 -g=0 -t=0 -prb_fld -ni -ap -prb=0:2 -maxsecs=1205 -xid=0,0,-1,2,50,5 -xd=0,0,-1,3,0 -xid=0,0,-1,3,360000,5000 -xd=0,0,-1,4,1e+06,500000 -xd=0,0,-1,5,3500,500 -xid=0,0,-1,5,11000,3000 -pass1_force_ni_ob_bin -dest=J:/project_trainingAggression/Data/Maladaptive/Psilocybin/20260126_mouse1034814/Day19/neuralData/neuralData -out_prb_fld
+[Thd 9416 CPU 15 4/21/26 12:29:05.018] Meta file not found 'J:/project_trainingAggression/Data/Maladaptive/Psilocybin/20260126_mouse1034814/Day19/neuralData/neuralData/20260126_m1034814_obs6_g0/20260126_m1034814_obs6_g0_imec0/20260126_m1034814_obs6_g0_t0.imec0.ap.meta'.
+[Thd 9416 CPU 15 4/21/26 12:29:05.020] 
+[Thd 20536 CPU 4 4/21/26 13:14:28.106] Cmdline: CatGT -dir=J:/project_trainingAggression/Data/Maladaptive/Psilocybin/20260126_mouse1034814/Day19/neuralData -run=20260126_m1034814_obs6 -g=0 -t=0 -prb_fld -ni -ap -prb=0:2 -maxsecs=1205 -xid=0,0,-1,2,50,5 -xd=0,0,-1,3,0 -xid=0,0,-1,3,360000,5000 -xd=0,0,-1,4,1e+06,500000 -xd=0,0,-1,5,3500,500 -xid=0,0,-1,5,11000,3000 -pass1_force_ni_ob_bin -dest=J:/project_trainingAggression/Data/Maladaptive/Psilocybin/20260126_mouse1034814/Day19/neuralData -out_prb_fld
+[Thd 20536 CPU 2 4/21/26 14:39:15.580] 
+[Thd 18340 CPU 2 4/22/26 20:10:35.185] Cmdline: CatGT -dir=J:/project_trainingAggression/Data/ParadigmControls/20260415_mouse1034813/Day01/neuralData -run=20260415_m1034813_obs1 -g=0 -t=0 -prb_fld -ni -ap -prb=0:2 -maxsecs=1205 -xid=0,0,-1,2,50,5 -xd=0,0,-1,3,0 -xid=0,0,-1,3,360000,5000 -xd=0,0,-1,4,1e+06,500000 -xd=0,0,-1,5,3500,500 -xid=0,0,-1,5,11000,3000 -pass1_force_ni_ob_bin -dest=J:/project_trainingAggression/Data/ParadigmControls/20260415_mouse1034813/Day01/neuralData -out_prb_fld
+[Thd 18340 CPU 2 4/22/26 20:39:32.753] 
+[Thd 13220 CPU 12 4/23/26 22:42:55.076] Cmdline: CatGT -dir=J:/project_trainingAggression/Data/ParadigmControls/20260415_mouse1034811/neuralData -run=20260415_m1034811_obs1 -g=0 -t=0 -prb_fld -ni -ap -prb=0:2 -maxsecs=1205 -xid=0,0,-1,2,50,5 -xd=0,0,-1,3,0 -xid=0,0,-1,3,360000,5000 -xd=0,0,-1,4,1e+06,500000 -xd=0,0,-1,5,3500,500 -xid=0,0,-1,5,11000,3000 -pass1_force_ni_ob_bin -dest=J:/project_trainingAggression/Data/ParadigmControls/20260415_mouse1034811/neuralData -out_prb_fld
+[Thd 13220 CPU 2 4/23/26 23:11:38.925] 
+[Thd 3984 CPU 8 4/24/26 18:46:02.490] Cmdline: CatGT -dir=J:/project_trainingAggression/Data/Maladaptive/Psilocybin/20260126_mouse1034814/Day19/neuralData -run=20260126_m1034814_obs6 -g=0 -t=0 -prb_fld -ni -ap -prb=0:2 -maxsecs=1205 -xid=0,0,-1,2,50,5 -xd=0,0,-1,3,0 -xid=0,0,-1,3,360000,5000 -xd=0,0,-1,4,1e+06,500000 -xd=0,0,-1,5,3500,500 -xid=0,0,-1,5,11000,3000 -pass1_force_ni_ob_bin -dest=J:/project_trainingAggression/Data/Maladaptive/Psilocybin/20260126_mouse1034814/Day19/neuralData -out_prb_fld
+[Thd 3984 CPU 3 4/24/26 20:18:39.432] 
+[Thd 14256 CPU 2 4/24/26 23:09:00.209] Cmdline: CatGT -dir=J:/project_trainingAggression/Data/Maladaptive/Psilocybin/20260415_mouse1013587/Day01/neuralData -run=20260415_m1013587_obs1 -g=0 -t=0 -prb_fld -ni -ap -prb=0:2 -maxsecs=1205 -xid=0,0,-1,2,50,5 -xd=0,0,-1,3,0 -xid=0,0,-1,3,360000,5000 -xd=0,0,-1,4,1e+06,500000 -xd=0,0,-1,5,3500,500 -xid=0,0,-1,5,11000,3000 -pass1_force_ni_ob_bin -dest=J:/project_trainingAggression/Data/Maladaptive/Psilocybin/20260415_mouse1013587/Day01/neuralData -out_prb_fld
+[Thd 18468 CPU 1 4/24/26 23:22:38.726] Cmdline: CatGT -dir=J:/project_trainingAggression/Data/ParadigmControls/20260415_mouse1013587/Day01/neuralData -run=20260415_m1013587_obs1 -g=0 -t=0 -prb_fld -ni -ap -prb=0:2 -maxsecs=1205 -xid=0,0,-1,2,50,5 -xd=0,0,-1,3,0 -xid=0,0,-1,3,360000,5000 -xd=0,0,-1,4,1e+06,500000 -xd=0,0,-1,5,3500,500 -xid=0,0,-1,5,11000,3000 -pass1_force_ni_ob_bin -dest=J:/project_trainingAggression/Data/ParadigmControls/20260415_mouse1013587/Day01/neuralData -out_prb_fld
+[Thd 18468 CPU 2 4/24/26 23:54:05.567] 
+[Thd 4688 CPU 6 4/27/26 23:43:00.471] Cmdline: CatGT -dir=J:/project_trainingAggression/Data/ParadigmControls/20260415_mouse1034813/Day03/neuralData -run=20260415_m1034813_obs2 -g=0 -t=0 -prb_fld -ni -ap -prb=0:2 -xid=0,0,-1,2,50,5 -xd=0,0,-1,3,0 -xid=0,0,-1,3,360000,5000 -xd=0,0,-1,4,1e+06,500000 -xd=0,0,-1,5,3500,500 -xid=0,0,-1,5,11000,3000 -pass1_force_ni_ob_bin -dest=J:/project_trainingAggression/Data/ParadigmControls/20260415_mouse1034813/Day03/neuralData -out_prb_fld
+[Thd 4688 CPU 6 4/27/26 23:43:00.517] Note: Metadata <imErrFlags0_IS_CT_SR_LK_PP_SY_MS=1 1 0 0 0 2 9> in '20260415_m1034813_obs2_g0_t0.nidq.meta'.
+[Thd 4688 CPU 12 4/27/26 23:43:01.347] Note: Metadata <imErrFlags0_IS_CT_SR_LK_PP_SY_MS=1 1 0 0 0 2 9> in '20260415_m1034813_obs2_g0_t0.imec0.ap.meta'.
+[Thd 4688 CPU 2 4/28/26 00:07:32.690] Note: Metadata <imErrFlags0_IS_CT_SR_LK_PP_SY_MS=1 1 0 0 0 2 9> in '20260415_m1034813_obs2_g0_t0.imec1.ap.meta'.
+[Thd 4688 CPU 4 4/28/26 00:31:34.912] Note: Metadata <imErrFlags0_IS_CT_SR_LK_PP_SY_MS=1 1 0 0 0 2 9> in '20260415_m1034813_obs2_g0_t0.imec2.ap.meta'.
+[Thd 4688 CPU 4 4/28/26 00:56:10.997] 
+[Thd 9964 CPU 0 4/28/26 22:34:20.012] Cmdline: CatGT -dir=J:/project_trainingAggression/Data/ParadigmControls/20260415_mouse1034811/Day03/neuralData -run=20260415_m1034811_obs2 -g=0 -t=0 -prb_fld -ni -ap -prb=0:2 -xid=0,0,-1,2,50,5 -xd=0,0,-1,3,0 -xid=0,0,-1,3,360000,5000 -xd=0,0,-1,4,1e+06,500000 -xd=0,0,-1,5,3500,500 -xid=0,0,-1,5,11000,3000 -pass1_force_ni_ob_bin -dest=J:/project_trainingAggression/Data/ParadigmControls/20260415_mouse1034811/Day03/neuralData -out_prb_fld
+[Thd 9964 CPU 5 4/29/26 02:07:54.473] 
+[Thd 6048 CPU 2 4/29/26 20:29:01.656] Cmdline: CatGT -dir=J:/project_trainingAggression/Data/ParadigmControls/20260415_mouse1013587/Day03/neuralData -run=20260415_m1013587_obs2 -g=0 -t=0 -prb_fld -ni -ap -prb=0:2 -xid=0,0,-1,2,50,5 -xd=0,0,-1,3,0 -xid=0,0,-1,3,360000,5000 -xd=0,0,-1,4,1e+06,500000 -xd=0,0,-1,5,3500,500 -xid=0,0,-1,5,11000,3000 -pass1_force_ni_ob_bin -dest=J:/project_trainingAggression/Data/ParadigmControls/20260415_mouse1013587/Day03/neuralData -out_prb_fld
+[Thd 6048 CPU 6 4/30/26 00:02:00.913] 
